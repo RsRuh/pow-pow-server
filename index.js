@@ -84,7 +84,7 @@ async function run() {
             console.log(purchaseQuery);
             
             const purchaseFood = await bookedCollection.findOne(purchaseQuery)
-            console.log(purchaseFood);
+
             
             
             if (purchaseFood) {
